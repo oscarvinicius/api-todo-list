@@ -6,7 +6,7 @@ import {
   buildValidationErrorResponse,
   failResponse,
   successResponse,
-} from "../utils/controller.utils";
+} from "../utils/utils";
 
 interface ICreateTodoRequest {
   title: string;

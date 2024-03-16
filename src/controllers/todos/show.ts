@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { Todo } from "../../entity/Todo";
 import { AppDataSource } from "../../data-source";
-import { failResponse, successResponse } from "../utils/controller.utils";
+import { failResponse, successResponse } from "../utils/utils";
 
 export const show = async (req: Request, res: Response) => {
   if (req.params.id == undefined) {
